@@ -52,7 +52,7 @@ func run(seed int64) error {
 		choice := showTimedOptions(newOptions)
 
 		if choice != solutionIndex {
-			fmt.Printf("Incorrect. You guessed %d, but it was %d.\nYou made it to round %d.", choice, solutionIndex, round)
+			fmt.Printf("Incorrect. You guessed %d, but it was %d.\nYou made it to round %d.\n", choice, solutionIndex, round)
 			os.Exit(0)
 		}
 
@@ -148,7 +148,7 @@ func showTimedStarting(rs []rune) {
 		display += fmt.Sprintf(" %s", string(r))
 	}
 	fmt.Printf("memorize: %s\n", display)
-	for i := 5; i > 0; i-- {
+	for i := len(rs); i > 0; i-- {
 		fmt.Printf("%d...", i)
 		time.Sleep(1 * time.Second)
 		// erase the previous timer time
