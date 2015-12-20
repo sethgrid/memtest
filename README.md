@@ -3,8 +3,7 @@
 A terminal memory/spot-the-difference game. Unicode characters are displayed on the screen for a short time. A new set is displayed, and you must choose what symbol has been added to the set. Each round, the set of symbols gets bigger!
 
 ### Running
-
-`go run main.go`
+`go run main.go` (you will need to `go get` first)
 
 ### Options
 `go run main.go -seed 1234` allows you to play the same game over and over.
