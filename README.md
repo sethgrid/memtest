@@ -1,6 +1,6 @@
 ## MemTest
 
-A terminal memory/spot-the-difference game. Unicode characters are displayed on the screen for a short time. A new set is displayed, and you must choose what symbol has been added to the set.
+A terminal memory/spot-the-difference game. Unicode characters are displayed on the screen for a short time. A new set is displayed, and you must choose what symbol has been added to the set. Each round, the set of symbols gets bigger!
 
 ### Running
 
